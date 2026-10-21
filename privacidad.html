@@ -10,7 +10,7 @@
 <header><div class="wrap">
   <a class="marca" href="index.html">Q-MOTOR</a>
   <h1>Política de privacidad</h1>
-  <p>Versión 1.0, vigente desde el <mark class="pendiente">[FECHA DE PUBLICACIÓN]</mark>.</p>
+  <p>Versión 1.1, vigente desde el <mark class="pendiente">[FECHA DE PUBLICACIÓN]</mark>.</p>
 </div></header>
 <main class="wrap">
 
@@ -30,7 +30,7 @@
     <tr><td>Teléfono (opcional)</td><td>Que la contraparte te contacte cuando aceptas una oferta o confirmas una visita en venta directa</td><td>Consentimiento: lo agregas tú y lo puedes borrar</td></tr>
     <tr><td>Datos y fotos del vehículo</td><td>Publicar tu aviso. Las fotos públicas las puede ver cualquier persona</td><td>Ejecución del contrato</td></tr>
     <tr><td>Foto de la placa VIN o número de chasis</td><td>Verificar que el vehículo existe y prevenir fraudes. <strong>Nunca se publica</strong>: solo la ven tú y el equipo de Q-Motor</td><td>Interés legítimo en prevenir fraudes</td></tr>
-    <tr><td>Fotos de tu cédula de identidad (frente y reverso) y una selfie</td><td>Confirmar tu identidad para consignar o visitar un vehículo en consignación. Las revisa una persona; <strong>no usamos reconocimiento facial automático</strong> ni creamos plantillas biométricas. No se muestran a nadie más</td><td>Consentimiento expreso, que das al marcar la autorización antes de enviarlas</td></tr>
+    <tr><td>Verificación de identidad: fotos de tu cédula (frente y reverso) y un video corto de tu rostro (prueba de vida). <strong>Incluye datos biométricos</strong>, que la ley considera datos sensibles</td><td>Confirmar que eres la persona de la cédula, para consignar o visitar un vehículo en consignación. Lo hace por encargo nuestro el proveedor Didit: lee la cédula, comprueba que estás presente frente a la cámara y compara tu rostro con la foto del documento. Q-Motor <strong>no recibe ni guarda</strong> las imágenes ni la plantilla biométrica: solo el resultado (verificada, en revisión o no completada) y el estado de cada comprobación. Si el proveedor no está disponible, puedes enviar fotos que revisa a mano una persona del equipo</td><td>Consentimiento expreso, que das al marcar la autorización antes de empezar</td></tr>
     <tr><td>Ofertas, solicitudes de visita y avisos guardados</td><td>Hacer funcionar esas acciones entre compradores y vendedores</td><td>Ejecución del contrato</td></tr>
     <tr><td>Reportes de avisos que envías</td><td>Revisar avisos problemáticos. El dueño del aviso no sabe quién lo reportó</td><td>Interés legítimo en mantener un servicio seguro</td></tr>
     <tr><td>Registro de tus aceptaciones (versión de los términos, fecha y hora)</td><td>Acreditar que aceptaste los términos, la política y, si corresponde, las condiciones de consignación y la autorización para verificar tu identidad</td><td>Cumplimiento de obligaciones legales e interés legítimo</td></tr>
@@ -43,8 +43,8 @@
   <ul>
     <li>No vendemos ni arrendamos tus datos, ni los usamos para publicidad.</li>
     <li>No usamos herramientas de analítica de comportamiento ni de publicidad dentro de la app. Solo usamos un servicio de reporte de errores (ver sección 3).</li>
-    <li>No tomamos decisiones sobre ti basadas solo en procesos automatizados.</li>
-    <li>No usamos tu ubicación GPS: las fotos se guardan sin metadatos de ubicación.</li>
+    <li>La única decisión automatizada es la verificación de identidad: si la comparación de rostros coincide, tu cuenta queda verificada al instante. <strong>Un resultado negativo o dudoso nunca se decide solo de forma automática</strong>: lo revisa una persona del equipo, y puedes pedirnos que revisemos cualquier resultado escribiendo a <mark class="pendiente">[CORREO DE PRIVACIDAD]</mark>.</li>
+    <li>Ubicación: si usas "Cerca de mí", la app pide tu <strong>ubicación aproximada</strong> y la usa solo dentro de tu teléfono para calcular distancias. No la enviamos a Q-Motor ni la guardamos. Los avisos se muestran en el centro de su comuna, nunca en una dirección exacta. Las fotos se guardan sin metadatos de ubicación.</li>
   </ul>
 </section>
 
@@ -56,6 +56,8 @@
       <ul>
         <li>Supabase Inc. (base de datos, autenticación y almacenamiento de archivos), con servidores en <mark class="pendiente">[REGIÓN DEL PROYECTO, p. ej. São Paulo, Brasil]</mark>.</li>
         <li>Resend, Inc., para enviarte el código de ingreso desde la dirección noreply-qmotor@codenext.cl.</li>
+        <li>Didit (<mark class="pendiente">[RAZÓN SOCIAL Y PAÍS DE DIDIT, según su contrato]</mark>), para la verificación de identidad con prueba de vida y comparación de rostros. Conserva las imágenes según el plazo configurado en nuestra cuenta: <mark class="pendiente">[N]</mark> días.</li>
+        <li>Google, que entrega los mapas que se muestran en la app (Google Maps). Al cargar un mapa, tu teléfono se conecta con Google, que recibe datos técnicos como tu dirección IP, según su propia política de privacidad.</li>
         <li>Functional Software, Inc. (Sentry), para recibir los reportes de fallas de la app, con servidores en <mark class="pendiente">[Estados Unidos o Unión Europea, según la región del proyecto en Sentry]</mark>.</li>
         <li>Google y Apple, solo si ingresas con ellos.</li>
       </ul>
@@ -70,7 +72,8 @@
   <h2>4. Cuánto tiempo los guardamos</h2>
   <table>
     <tr><th>Dato</th><th>Plazo</th></tr>
-    <tr><td>Fotos de cédula y selfie</td><td><strong>30 días después de que revisamos tu verificación</strong>. Luego se borran y solo conservamos el resultado (verificada o rechazada) y la fecha</td></tr>
+    <tr><td>Fotos de cédula y selfie enviadas para revisión manual</td><td><strong>30 días después de que revisamos tu verificación</strong>. Luego se borran y solo conservamos el resultado y la fecha</td></tr>
+    <tr><td>Imágenes y biometría de la verificación con Didit</td><td>No las guardamos. Didit las conserva <mark class="pendiente">[N]</mark> días y luego las elimina</td></tr>
     <tr><td>Perfil, avisos, fotos, ofertas, visitas, guardados, reportes y registro de aceptaciones</td><td>Mientras tu cuenta exista. Al eliminarla se borran de inmediato</td></tr>
     <tr><td>Datos técnicos y registros de acceso</td><td>Hasta <mark class="pendiente">[90]</mark> días</td></tr>
     <tr><td>Reportes de fallas</td><td>Hasta 90 días</td></tr>
